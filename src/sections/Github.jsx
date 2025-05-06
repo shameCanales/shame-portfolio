@@ -4,7 +4,7 @@ import GithubStats from "../components/GitHubStats";
 
 export default function Github() {
   return (
-    <div className="py-14">
+    <div className="">
       <Subheading>Github Contribution Activity</Subheading>
       <Paragraph>
         Learned and started using git and GitHub as my version control system

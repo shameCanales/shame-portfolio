@@ -2,6 +2,7 @@ import "./App.css";
 import HeaderSection from "./sections/HeaderSection";
 import Introduction from "./sections/Introduction";
 import Github from "./sections/Github";
+import TechStack from "./sections/TechStack";
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
         <HeaderSection />
         <Introduction />
       </div>
-
       <Github />
+      <TechStack/>
     </div>
   );
 }

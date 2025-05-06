@@ -5,7 +5,7 @@ import ContactCTA from "../components/ContactCTA";
 
 export default function HeaderSection() {
   return (
-    <div className=" py-20 pb-18">
+    <div className="pt-20">
       <Headline />
       <SubHeadline />
       <Tagline />
@@ -13,3 +13,4 @@ export default function HeaderSection() {
     </div>
   );
 }
+;

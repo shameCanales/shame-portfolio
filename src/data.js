@@ -1,8 +1,26 @@
+// CTA icons
 import facebookIcon from "./assets/icons/facebook.png";
 import githubIcon from "./assets/icons/github.png";
 import gmailIcon from "./assets/icons/gmail.png";
 import linkedinIcon from "./assets/icons/linkedin.png";
 import phoneCallIcon from "./assets/icons/phone-call.png";
+
+// logos
+import css from "./assets/logos/css3.png";
+import git from "./assets/logos/git.png";
+import github from "./assets/logos/github.png";
+import html5 from "./assets/logos/html5.png";
+import javascript from "./assets/logos/javascript.png";
+import mongodb from "./assets/logos/monggodb.png";
+import nodejs from "./assets/logos/nodejs.png";
+import react from "./assets/logos/reactjs.png";
+import rtk from "./assets/logos/reduxtoolkit.png";
+import shadcn from "./assets/logos/shadcn.png";
+import tailwindcss from "./assets/logos/tailwindcss.png";
+import typescript from "./assets/logos/typescript.png";
+import vite from "./assets/logos/vite.png";
+import vscode from "./assets/logos/vscode.png";
+import nextjs from "./assets/logos/nextjs.png";
 
 export const contactCTAs = [
   {
@@ -36,3 +54,88 @@ export const contactCTAs = [
     alt: "phone call icon",
   },
 ];
+
+//logos for the tech stack section
+export const logosRow1 = [
+  {
+    name: "ReactJS",
+    logosrc: react,
+    alt: "ReactJS logo",
+  },
+  {
+    name: "Vite",
+    logosrc: vite,
+    alt: "Vite logo",
+  },
+  {
+    name: "Css3",
+    logosrc: css,
+    alt: "Css3 logo",
+  },
+  {
+    name: "Html5",
+    logosrc: html5,
+    alt: "Html5 logo",
+  },
+  {
+    name: "Javascript",
+    logosrc: javascript,
+    alt: "Javascript logo",
+  },
+];
+
+export const logosRow2 = [
+  {
+    name: "VSCode",
+    logosrc: vscode,
+    alt: "VSCode logo",
+  },
+  {
+    name: "TailwindCSS",
+    logosrc: tailwindcss,
+    alt: "TailwindCSS logo",
+  },
+  {
+    name: "Git",
+    logosrc: git,
+    alt: "Git logo",
+  },
+  {
+    name: "TypeScript",
+    logosrc: typescript,
+    alt: "TypeScript logo",
+  },
+  {
+    name: "Redux Toolkit",
+    logosrc: rtk,
+    alt: "Redux Toolkit logo",
+  },
+];
+
+export const logosRow3 = [
+  {
+    name: 'MongoDB',
+    logosrc: mongodb,
+    alt: 'MongoDB logo',
+  }, 
+  {
+    name: 'NextJS',
+    logosrc: nextjs,
+    alt: 'NextJS logo',
+  }, 
+  {
+    name: 'ShadCN', 
+    logosrc: shadcn,
+    alt: 'ShadCN logo',
+  },
+  {
+    name: 'GitHub',
+    logosrc: github,
+    alt: 'GitHub logo',
+  },
+  {
+    name: 'NodeJS',
+    logosrc: nodejs,
+    alt: 'NodeJS logo',
+  }
+]

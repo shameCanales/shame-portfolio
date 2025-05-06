@@ -207,25 +207,40 @@
   font-weight: 900;
 }
 
-/* @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-/* 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-} */
-
-/* .card {
-  padding: 2em;
+/* Marque component */
+.scroll-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #f8f9fa;
+  margin: 1rem 0;
+  border-radius: 8px;
 }
 
-.read-the-docs {
-  color: #888;
-} */
+.scroller {
+  display: inline-flex;
+  align-items: center;
+  animation: scroll var(--speed, 20s) linear infinite;
+}
+
+.scroller:hover {
+  animation-play-state: paused;
+}
+
+.left .scroller {
+  animation-direction: normal;
+}
+
+.right .scroller {
+  animation-direction: reverse;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
