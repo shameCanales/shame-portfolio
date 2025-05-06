@@ -219,9 +219,41 @@
 }
 
 .scroller {
-  display: inline-flex;
-  align-items: center;
+  /* display: inline-flex; */
+  /* align-items: center; */
   animation: scroll var(--speed, 20s) linear infinite;
+}
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 2rem)); /* account for gap */
+  }
+}
+
+@keyframes marquee-right {
+  0% {
+    transform: translateX(calc(-100% - 2rem));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee-left {
+  animation: marquee-left linear infinite;
+}
+
+.animate-marquee-right {
+  animation: marquee-right linear infinite;
+}
+
+/* Optional: Pause on hover */
+.animate-marquee-left:hover, 
+.animate-marquee-right:hover {
+  animation-play-state: paused;
 }
 
 .scroller:hover {

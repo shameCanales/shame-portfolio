@@ -6,14 +6,16 @@ import TechStack from "./sections/TechStack";
 
 function App() {
   return (
-    <div className="px-5">
-      <div className="hero-section">
-        <HeaderSection />
-        <Introduction />
+    <>
+      <div className="px-5">
+        <div className="hero-section">
+          <HeaderSection />
+          <Introduction />
+        </div>
+        <Github />
       </div>
-      <Github />
-      <TechStack/>
-    </div>
+      <TechStack />
+    </>
   );
 }
 
