@@ -100,11 +100,11 @@ export const logosRow2 = [
     logosrc: git,
     alt: "Git logo",
   },
-  {
-    name: "TypeScript",
-    logosrc: typescript,
-    alt: "TypeScript logo",
-  },
+  // {
+  //   name: "TypeScript",
+  //   logosrc: typescript,
+  //   alt: "TypeScript logo",
+  // },
   {
     name: "Redux Toolkit",
     logosrc: rtk,

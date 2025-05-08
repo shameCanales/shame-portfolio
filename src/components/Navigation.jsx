@@ -1,66 +1,130 @@
-import { Link, NavLink } from "react-router";
+import { NavLink, useLocation } from "react-router";
 import LinkText from "../ui/LinkText";
+import hamburgerMenu from "../assets/icons/more.png";
+import closeMenu from "../assets/icons/close.png";
+import { useSelector, useDispatch } from "react-redux";
+import { uiActions } from "../store/ui-slice";
 
 export default function Navigation() {
+  const location = useLocation();
+  const dispatch = useDispatch();
+
+  const routeNameMap = {
+    "/": "Skill Set",
+    "/certificates": "Certificates",
+    "/projects": "Projects",
+    "/experience": "Experience",
+    "/about": "About Me",
+  };
+
+  const currentSection = routeNameMap[location.pathname] || "nonono";
+  const navIsOpen = useSelector((state) => state.ui.navMobileisOpen);
+  const OpenNav = navIsOpen ? "block" : "hidden";
+
+  const handleOpenNav = () => {
+    dispatch(uiActions.openNavMobile());
+  };
+
+  const handleCloseNav = () => {
+    dispatch(uiActions.closeNavMobile());
+  };
+
   return (
-    <nav className="bg-stone-900 text-stone-50 mt-8">
-      <ul>
-        <li>
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              isActive
-                ? "text-purple-800 poppins-bold text-sm "
-                : "poppins-light"
-            }
-            end
-          >
-            <LinkText>Skill Set</LinkText>
-          </NavLink>
-        </li>
+    <div className="mt-14 relative">
+      <div className="mobile-nav bg-stone-900 pl-6 rounded-4xl flex items-center justify-between sm:hidden">
+        <p className="uppercase text-stone-50 poppins-medium text-xs tracking-wide">
+          {currentSection}
+        </p>
 
-        <li>
-          <NavLink
-            to="/certificates"
-            className={({ isActive }) =>
-              isActive ? "text-purple-800 poppins-bold" : "poppins-light"
-            }
-          >
-            <LinkText>Certificates</LinkText>
-          </NavLink>
-        </li>
+        <button
+          onClick={handleOpenNav}
+          className="bg-purple-700 p-4 rounded-full"
+        >
+          <img src={hamburgerMenu} alt="hamburger Menu icon" className="w-5" />
+        </button>
+      </div>
 
-        <li>
-          <NavLink
-            to="/projects"
-            className={({ isActive }) =>
-              isActive ? "text-purple-800 poppins-bold  " : "poppins-light"
-            }
+      <nav
+        className={`bg-stone-900 sm:bg-transparent text-stone-50 sm:text-stone-950 mt-8 px-6 py-8  rounded-3xl w-38 sm:w-full absolute sm:static top-[-32px] right-0 ${OpenNav}  sm:block `}
+      >
+        <div className="w-full flex justify-end sm:hidden">
+          <button
+            onClick={handleCloseNav}
+            className="bg-purple-700 p-3 rounded-full"
           >
-            <LinkText>Projects</LinkText>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/experience"
-            className={({ isActive }) =>
-              isActive ? "text-purple-800 poppins-bold " : "poppins-light"
-            }
-          >
-            <LinkText>Experience</LinkText>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/about"
-            className={({ isActive }) =>
-              isActive ? "text-purple-800 poppins-bold " : "poppins-light"
-            }
-          >
-            <LinkText>About Me</LinkText>
-          </NavLink>
-        </li>
-      </ul>
-    </nav>
+            <img className="w-3" src={closeMenu} alt="Close Menu Icon" />
+          </button>
+        </div>
+
+        <ul className="text-right gap-8 sm:flex justify-between">
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-purple-800 poppins-bold text-sm "
+                  : "poppins-light"
+              }
+              end
+            >
+              <LinkText active={currentSection === "Skill Set"}>
+                Skill Set
+              </LinkText>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/certificates"
+              className={({ isActive }) =>
+                isActive ? "text-purple-800 poppins-bold" : "poppins-light"
+              }
+            >
+              <LinkText active={currentSection === "Certificates"}>
+                Certificates
+              </LinkText>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/projects"
+              className={({ isActive }) =>
+                isActive ? "text-purple-800 poppins-bold  " : "poppins-light"
+              }
+            >
+              <LinkText active={currentSection === "Projects"}>
+                Projects
+              </LinkText>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/experience"
+              className={({ isActive }) =>
+                isActive ? "text-purple-800 poppins-bold " : "poppins-light"
+              }
+            >
+              <LinkText active={currentSection === "Experience"}>
+                Experience
+              </LinkText>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "text-purple-800 poppins-bold " : "poppins-light"
+              }
+              
+            >
+              <LinkText active={currentSection === "About Me"}>
+                About Me
+              </LinkText>
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 }
