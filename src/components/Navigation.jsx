@@ -30,7 +30,7 @@ export default function Navigation() {
   };
 
   return (
-    <div className="mt-14 relative">
+    <div className="mt-12 relative z-[999]">
       <div className="mobile-nav bg-stone-900 pl-6 rounded-4xl flex items-center justify-between sm:hidden">
         <p className="uppercase text-stone-50 poppins-medium text-xs tracking-wide">
           {currentSection}
@@ -116,7 +116,6 @@ export default function Navigation() {
               className={({ isActive }) =>
                 isActive ? "text-purple-800 poppins-bold " : "poppins-light"
               }
-              
             >
               <LinkText active={currentSection === "About Me"}>
                 About Me
