@@ -100,11 +100,11 @@ export const logosRow2 = [
     logosrc: git,
     alt: "Git logo",
   },
-  // {
-  //   name: "TypeScript",
-  //   logosrc: typescript,
-  //   alt: "TypeScript logo",
-  // },
+  {
+    name: "TypeScript",
+    logosrc: typescript,
+    alt: "TypeScript logo",
+  },
   {
     name: "Redux Toolkit",
     logosrc: rtk,
@@ -159,5 +159,93 @@ export const certificates = [
     certifiedBy: "Jonas Schmedtmann",
     certSrc: HtmlAndCss,
     platform: "Udemy",
+  },
+];
+
+export const skillsets = [
+  {
+    name: "Frontend",
+    items: [
+      "HTML, CSS, VanillaJS",
+      "Sass",
+      "React JS",
+      "Tailwind CSS",
+      "ShadCN",
+    ],
+  },
+  {
+    name: "State Management",
+    items: ["React UseState", "React Context", "Redux Toolkit"],
+  },
+  {
+    name: "FullStack",
+    items: ["NextJS"],
+  },
+  {
+    name: "BaaS",
+    items: ["FireBase"],
+  },
+  {
+    name: "Backend",
+    items: ["Node.JS"],
+  },
+  {
+    name: "Build Tools",
+    items: ["Vite for React", "Babel: MVC for Vanilla JS"],
+  },
+  {
+    name: "Paradigms",
+    items: [
+      "Component Base Arch.",
+      "Functional Programming",
+      "Object Oriented Programming",
+      "MVC Architecture",
+    ],
+  },
+  {
+    name: "Design Tools",
+    items: ["Figma", "Photoshop"],
+  },
+  {
+    name: "Version Control",
+    items: ["Git", "GitHub"],
+  },
+  {
+    name: "Database",
+    items: ["MySQL"],
+  },
+];
+
+import linkedInWhite from "./assets/icons/linkedinW.png";
+import emailWhite from "./assets/icons/email.png";
+import facebookWhite from "./assets/icons/facebookW.png";
+import gitHubWhite from "./assets/icons/githubW.png";
+import phone from "./assets/icons/phone-call.png";
+
+export const footerLinks = [
+  {
+    name: "GitHub",
+    link: "#",
+    src: gitHubWhite,
+  },
+  {
+    name: "Email",
+    link: "#",
+    src: emailWhite,
+  },
+  {
+    name: "Facebook",
+    link: "#",
+    src: facebookWhite,
+  },
+  {
+    name: "LinkedIn",
+    link: "#",
+    src: linkedInWhite,
+  },
+  {
+    name: "Mobile",
+    link: "09813030091",
+    src: phone,
   },
 ];

@@ -4,7 +4,7 @@ import Introduction from "../sections/Introduction";
 import Github from "../sections/Github";
 import TechStack from "../sections/TechStack";
 import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
+import Footer from "../sections/Footer";
 
 export default function RootLayout() {
   return (
