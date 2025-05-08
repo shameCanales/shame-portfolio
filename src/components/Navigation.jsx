@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router";
-import LinkText from "./ui/LinkText";
+import LinkText from "../ui/LinkText";
 
 export default function Navigation() {
   return (

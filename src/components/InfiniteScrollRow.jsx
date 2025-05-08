@@ -14,7 +14,7 @@
 //     </div>
 //   );
 // }
-import LogoItem from "./ui/logoItem";
+import LogoItem from "../ui/logoItem";
 
 export default function InfiniteScrollRow({ items, direction, speed = "20s" }) {
   // Duplicate items enough times to ensure smooth looping

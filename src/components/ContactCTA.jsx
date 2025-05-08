@@ -1,4 +1,4 @@
-import ContactIcon from "./ui/contactIcon";
+import ContactIcon from "../ui/contactIcon";
 import { contactCTAs } from "../data";
 
 export default function ContactCTA() {

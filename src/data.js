@@ -114,28 +114,50 @@ export const logosRow2 = [
 
 export const logosRow3 = [
   {
-    name: 'MongoDB',
+    name: "MongoDB",
     logosrc: mongodb,
-    alt: 'MongoDB logo',
-  }, 
+    alt: "MongoDB logo",
+  },
   {
-    name: 'NextJS',
+    name: "NextJS",
     logosrc: nextjs,
-    alt: 'NextJS logo',
-  }, 
+    alt: "NextJS logo",
+  },
   {
-    name: 'ShadCN', 
+    name: "ShadCN",
     logosrc: shadcn,
-    alt: 'ShadCN logo',
+    alt: "ShadCN logo",
   },
   {
-    name: 'GitHub',
+    name: "GitHub",
     logosrc: github,
-    alt: 'GitHub logo',
+    alt: "GitHub logo",
   },
   {
-    name: 'NodeJS',
+    name: "NodeJS",
     logosrc: nodejs,
-    alt: 'NodeJS logo',
-  }
-]
+    alt: "NodeJS logo",
+  },
+];
+
+import HtmlAndCss from "./assets/certificates/HtmlandCSSUdemy.jpg";
+export const certificates = [
+  {
+    name: "Build Responsive Real-World Websites with HTML and CSS",
+    certifiedBy: "Jonas Schmedtmann",
+    certSrc: HtmlAndCss,
+    platform: "Udemy",
+  },
+  {
+    name: "Build Responsive Real-World Websites with HTML and CSS",
+    certifiedBy: "Jonas Schmedtmann",
+    certSrc: HtmlAndCss,
+    platform: "Udemy",
+  },
+  {
+    name: "Build Responsive Real-World Websites with HTML and CSS",
+    certifiedBy: "Jonas Schmedtmann",
+    certSrc: HtmlAndCss,
+    platform: "Udemy",
+  },
+];

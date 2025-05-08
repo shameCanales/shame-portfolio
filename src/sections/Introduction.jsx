@@ -1,5 +1,5 @@
-import Paragraph from "../components/ui/paragraph";
-import Subheading from "../components/ui/Subheading";
+import Paragraph from "../ui/paragraph";
+import Subheading from "../ui/Subheading";
 export default function Introduction() {
   return (
     <div>
@@ -10,14 +10,14 @@ export default function Introduction() {
           about turning ideas into interactive, user-friendly web experiences.
           With multiple
           <a href="#" className="underline">
-            {' certifications'}
+            {" certifications"}
           </a>
           in HTML, CSS, JavaScript, and UI/UX design. I’m currently focused on
           mastering frontend development using React, Next.js, Tailwind CSS, and
           ShadCN — building clean, component-driven interfaces that perform
           beautifully across devices. Check out my
           <a href="#" className="underline">
-            {' Resume'}
+            {" Resume"}
           </a>
           .
         </Paragraph>

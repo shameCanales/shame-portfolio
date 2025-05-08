@@ -1,6 +1,6 @@
-import Headline from "../components/ui/Headline";
-import SubHeadline from "../components/ui/SubHeadline";
-import Tagline from "../components/ui/tagline";
+import Headline from "../ui/Headline";
+import SubHeadline from "../ui/SubHeadline";
+import Tagline from "../ui/tagline";
 import ContactCTA from "../components/ContactCTA";
 
 export default function HeaderSection() {
@@ -13,4 +13,3 @@ export default function HeaderSection() {
     </div>
   );
 }
-;

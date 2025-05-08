@@ -1,5 +1,5 @@
-import Subheading from "../components/ui/Subheading";
-import Paragraph from "../components/ui/paragraph";
+import Subheading from "../ui/Subheading";
+import Paragraph from "../ui/paragraph";
 import RunningLogosComponent from "../components/RunningLogosComponent";
 
 export default function TechStack() {
