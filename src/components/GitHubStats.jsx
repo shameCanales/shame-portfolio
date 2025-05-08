@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 export default function GithubStats() {
-  const token = import.meta.env.VITE_GITHUB_TOKEN;
+  const token = import.meta.env.VITE_GITHUB_TOKEN; //token located in .env
   const [calendarData, setCalendarData] = useState([]);
   const gridRef = useRef(null); // ← Ref for auto-scrolling
 
@@ -92,9 +92,9 @@ export default function GithubStats() {
         </div>
 
         {/* Grid */}
-        <div className="flex space-x-[2px] ">
+        <div className="flex space-x-[3.3px] ">
           {calendarData.weeks?.map((week, weekIdx) => (
-            <div key={weekIdx} className="flex flex-col space-y-[2px]">
+            <div key={weekIdx} className="flex flex-col space-y-[4px]">
               {week.contributionDays.map((day, dayIdx) => (
                 <div
                   key={dayIdx}
