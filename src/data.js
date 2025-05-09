@@ -290,3 +290,27 @@ export const footerLinks = [
     src: phone,
   },
 ];
+
+export const experiences = [
+  {
+    date: "Feb 2025 - June 2025",
+    role: "Intern / OJT",
+    where: "ComWorks Inc",
+    description:
+      "Recreated the Comwork company website using ReactJS, TailwindCSS, Redux Toolkit, and TanStack. Redesigned it with a minimalist, modern UI focused on clarity and user experience. Ensured a clear content hierarchy to guide visitor attention effectively. Also built several small projects during this period to strengthen my skills.",
+  },
+  {
+    date: "Feb 2025 - June 2025",
+    role: "Intern / OJT",
+    where: "ComWorks Inc",
+    description:
+      "Recreated the Comwork company website using ReactJS, TailwindCSS, Redux Toolkit, and TanStack. Redesigned it with a minimalist, modern UI focused on clarity and user experience. Ensured a clear content hierarchy to guide visitor attention effectively. Also built several small projects during this period to strengthen my skills.",
+  },
+  {
+    date: "Feb 2025 - June 2025",
+    role: "Intern / OJT",
+    where: "ComWorks Inc",
+    description:
+      "Recreated the Comwork company website using ReactJS, TailwindCSS, Redux Toolkit, and TanStack. Redesigned it with a minimalist, modern UI focused on clarity and user experience. Ensured a clear content hierarchy to guide visitor attention effectively. Also built several small projects during this period to strengthen my skills.",
+  },
+];
