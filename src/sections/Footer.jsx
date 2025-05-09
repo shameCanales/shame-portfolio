@@ -6,7 +6,7 @@ export default function Footer() {
       <p className="poppins-light text-xs">DevShame@2025</p>
       <div className="flex gap-4 mt-4 justify-center">
         {footerLinks.map((item) => (
-          <a href={item.link}>
+          <a href={item.link} key={item.src}>
             <img className="w-5" src={item.src} alt="" />
           </a>
         ))}

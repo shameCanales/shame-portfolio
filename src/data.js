@@ -1,11 +1,11 @@
-// CTA icons
+// CTA icons ///////////////
 import facebookIcon from "./assets/icons/facebook.png";
 import githubIcon from "./assets/icons/github.png";
 import gmailIcon from "./assets/icons/gmail.png";
 import linkedinIcon from "./assets/icons/linkedin.png";
 import phoneCallIcon from "./assets/icons/phone-call.png";
 
-// logos
+// logos ///////////////////
 import css from "./assets/logos/css3.png";
 import git from "./assets/logos/git.png";
 import github from "./assets/logos/github.png";
@@ -21,6 +21,19 @@ import typescript from "./assets/logos/typescript.png";
 import vite from "./assets/logos/vite.png";
 import vscode from "./assets/logos/vscode.png";
 import nextjs from "./assets/logos/nextjs.png";
+
+//certificates ////////////////
+import HtmlAndCss from "./assets/certificates/HtmlandCSSUdemy.jpg";
+
+// projects ///////////////////
+import waterbillingsystem from "./assets/projects/waterbillingsystem.png";
+
+//footer links ////////////////
+import linkedInWhite from "./assets/icons/linkedinW.png";
+import emailWhite from "./assets/icons/email.png";
+import facebookWhite from "./assets/icons/facebookW.png";
+import gitHubWhite from "./assets/icons/githubW.png";
+import phone from "./assets/icons/phone-call.png";
 
 export const contactCTAs = [
   {
@@ -140,7 +153,6 @@ export const logosRow3 = [
   },
 ];
 
-import HtmlAndCss from "./assets/certificates/HtmlandCSSUdemy.jpg";
 export const certificates = [
   {
     name: "Build Responsive Real-World Websites with HTML and CSS",
@@ -216,11 +228,40 @@ export const skillsets = [
   },
 ];
 
-import linkedInWhite from "./assets/icons/linkedinW.png";
-import emailWhite from "./assets/icons/email.png";
-import facebookWhite from "./assets/icons/facebookW.png";
-import gitHubWhite from "./assets/icons/githubW.png";
-import phone from "./assets/icons/phone-call.png";
+export const projects = [
+  {
+    name: "Water Billing Management System",
+    for: "Capstone Project - 4th Year",
+    description:
+      "Build and maintain critical components, used to construct Water Billing System’s frontend and backend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+    stack: ["JavaScript", "Php", "MySQL"],
+    imagesrc: waterbillingsystem,
+  },
+  {
+    name: "Water Billing Management System2",
+    for: "Capstone Project - 4th Year",
+    description:
+      "Build and maintain critical components, used to construct Water Billing System’s frontend and backend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+    stack: ["JavaScript", "Php", "MySQL"],
+    imagesrc: waterbillingsystem,
+  },
+  {
+    name: "Water Billing Management System3",
+    for: "Capstone Project - 4th Year",
+    description:
+      "Build and maintain critical components, used to construct Water Billing System’s frontend and backend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+    stack: ["JavaScript", "Php", "MySQL"],
+    imagesrc: waterbillingsystem,
+  },
+  {
+    name: "Water Billing Management System4",
+    for: "Capstone Project - 4th Year",
+    description:
+      "Build and maintain critical components, used to construct Water Billing System’s frontend and backend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+    stack: ["JavaScript", "Php", "MySQL"],
+    imagesrc: waterbillingsystem,
+  },
+];
 
 export const footerLinks = [
   {

@@ -5,7 +5,7 @@ import ContactCTA from "../components/ContactCTA";
 
 export default function HeaderSection() {
   return (
-    <div className="pt-20">
+    <div className="mt-17">
       <Headline />
       <SubHeadline />
       <Tagline />

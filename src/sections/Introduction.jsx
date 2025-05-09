@@ -2,7 +2,7 @@ import Paragraph from "../ui/paragraph";
 import Subheading from "../ui/Subheading";
 export default function Introduction() {
   return (
-    <div>
+    <div className="mt-17">
       <Subheading>Introduction</Subheading>
       <div className="text ">
         <Paragraph>

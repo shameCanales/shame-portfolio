@@ -30,7 +30,7 @@ export default function Navigation() {
   };
 
   return (
-    <div className="mt-12 relative z-[999]">
+    <div className="mt-20 relative z-[999]">
       <div className="mobile-nav bg-stone-900 pl-6 rounded-4xl flex items-center justify-between sm:hidden">
         <p className="uppercase text-stone-50 poppins-medium text-xs tracking-wide">
           {currentSection}
@@ -38,7 +38,7 @@ export default function Navigation() {
 
         <button
           onClick={handleOpenNav}
-          className="bg-purple-700 p-4 rounded-full"
+          className="bg-[#463EB1] p-2.5 rounded-full"
         >
           <img src={hamburgerMenu} alt="hamburger Menu icon" className="w-5" />
         </button>
