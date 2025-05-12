@@ -314,3 +314,4 @@ export const experiences = [
       "Recreated the Comwork company website using ReactJS, TailwindCSS, Redux Toolkit, and TanStack. Redesigned it with a minimalist, modern UI focused on clarity and user experience. Ensured a clear content hierarchy to guide visitor attention effectively. Also built several small projects during this period to strengthen my skills.",
   },
 ];
+
