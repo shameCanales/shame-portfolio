@@ -315,3 +315,10 @@ export const experiences = [
   },
 ];
 
+export const careerGoals = [
+  {
+    goal: "Learn Constantly",
+    goalDesc:
+      "Fuel my growth through curiosity. I aim to keep learning new tools, patterns, and technologies to stay sharp and relevant in a fast-evolving field.",
+  },
+];
