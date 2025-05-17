@@ -2,12 +2,18 @@ export default function About() {
   return (
     <>
       <div>
-        <div className="text">
-          <h2>Know More About me as you scroll.</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic neque
-            culpa recusandae aliquid ipsam quos? Necessitatibus nesciunt ab
-            possimus quibusdam!
+        <div className="text mt-16">
+          <h2 className="montserrat-extrabold text-xl text-center px-8 ">
+            Get to know me better as you scroll.
+          </h2>
+          <p className="inter-regular text-xs text-center leading-4.5  mt-4">
+            Hello there! I’m Mark Aron Shame Banzuelo Canales and I am an
+            aspiring{" "}
+            <span className="font-bold">Full-Stack Software Engineer</span> from
+            Campalingo, San Fernando, Romblon. The Galapagos of Asia. I studied
+            Bachelor of Science in Information Technology at Romblon State
+            University - San Fernando Campus with a focus on Software
+            Engineering.
           </p>
         </div>
 
