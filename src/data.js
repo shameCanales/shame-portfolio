@@ -317,28 +317,28 @@ export const experiences = [
 
 export const careerGoals = [
   {
-    goal: "Learn Constantly",
+    goalTitle: "Learn Constantly",
     goalDesc:
       "Fuel my growth through curiosity. I aim to keep learning new tools, patterns, and technologies to stay sharp and relevant in a fast-evolving field.",
-    bgColor: "bg-[#463EB1]",
+    bgColor: "#463EB1",
   },
   {
-    goal: "Grow Skillset",
+    goalTitle: "Grow Skillset",
     goalDesc:
       "Strengthen both technical and soft skills by diving deeper into frontend development, expanding my backend knowledge, and building full-stack confidence.",
-    bgColor: "bg-[#24AA41]",
+    bgColor: "#24AA41",
   },
   {
-    goal: "Contribute Value",
+    goalTitle: "Contribute Value",
     goalDesc:
       "Whether through clean code, thoughtful design, or teamwork, I want to create meaningful impact and bring value to projects and teams I work with.",
-    bgColor: "bg-[#1B997C]",
+    bgColor: "#1B997C",
   },
   {
-    goal: "Solve Problem",
+    goalTitle: "Solve Problem",
     goalDesc:
       "I enjoy breaking down challenges and finsing solutions, not just to make things work, but to make them work better, smarter, and smoother.",
-    bgColor: "bg-[#C72427]",
+    bgColor: "#C72427",
   },
 ];
 
