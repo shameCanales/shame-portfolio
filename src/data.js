@@ -320,5 +320,79 @@ export const careerGoals = [
     goal: "Learn Constantly",
     goalDesc:
       "Fuel my growth through curiosity. I aim to keep learning new tools, patterns, and technologies to stay sharp and relevant in a fast-evolving field.",
+    bgColor: "bg-[#463EB1]",
+  },
+  {
+    goal: "Grow Skillset",
+    goalDesc:
+      "Strengthen both technical and soft skills by diving deeper into frontend development, expanding my backend knowledge, and building full-stack confidence.",
+    bgColor: "bg-[#24AA41]",
+  },
+  {
+    goal: "Contribute Value",
+    goalDesc:
+      "Whether through clean code, thoughtful design, or teamwork, I want to create meaningful impact and bring value to projects and teams I work with.",
+    bgColor: "bg-[#1B997C]",
+  },
+  {
+    goal: "Solve Problem",
+    goalDesc:
+      "I enjoy breaking down challenges and finsing solutions, not just to make things work, but to make them work better, smarter, and smoother.",
+    bgColor: "bg-[#C72427]",
+  },
+];
+
+export const education = [
+  {
+    title: "Tertiary Education",
+    schoolName: "Romblon State University",
+    schoolYear: "S.Y. 2021-2025",
+    address: "Poblacion, San Fernando, Romblon",
+  },
+  {
+    title: "Secondary Education - Senior",
+    schoolName: "Don Carlos M. Mejias Memorial NHS",
+    schoolYear: "S.Y. 2019-2021",
+    address: "Panangcalan, San Fernando, Romblon",
+  },
+  {
+    title: "Secondary Education - Junior",
+    schoolName: "Don Carlos M. Mejias Memorial NHS",
+    schoolYear: "S.Y. 2015-2019",
+    address: "Panangcalan, San Fernando, Romblon",
+  },
+  {
+    title: "Primary Education",
+    schoolName: "Campalingo Elementary School",
+    schoolYear: "S.Y. 2008-2015",
+    address: "Campalingo, San Fernando, Romblon",
+  },
+];
+
+export const devJourney = [
+  {
+    title: "Curiosity Sparked It All",
+    desc: "I first got curious about how beautiful websites and apps were made — that curiosity quickly turned into excitement when I learned the basics of programming. Writing code felt fun and empowering, and I began imagining all the things I could build.",
+    color: "#E91A1A",
+  },
+  {
+    title: "First Line of Code",
+    desc: "I wrote my first line of code in Grade 11 using Visual Basic to build a basic calculator. Around the same time, I was introduced to HTML and CSS — and built my first website. That early exposure made me realize I wanted to keep going deeper.",
+    color: "#E2E91A",
+  },
+  {
+    title: "Learning Beyond the Classroom",
+    desc: "In college, I went beyond the curriculum—learning advanced HTML and CSS early to build a standout portfolio. I explored Python, C, C#, PHP, and MySQL, and later deepened my skills through Udemy courses in web development, UI/UX, and React.",
+    color: "#1AE940",
+  },
+  {
+    title: "First Real Projects & Building with Purpose",
+    desc: "I began with a PHP & MySQL CRUD app, then led the development of a Water Billing Management System for our capstone. I'm now rebuilding it with React and Node.js to modernize the stack and showcase my full stack skills—this portfolio highlights that journey.",
+    color: "#1A4AE9",
+  },
+  {
+    title: "Growing Into a Full Stack Developer",
+    desc: "I'm a frontend-focused developer specializing in responsive, component-based UIs with React, Next.js, and Tailwind CSS. I'm also advancing my backend skills with Node.js and MongoDB, aiming to become a well-rounded full stack engineer committed to purposeful learning and development.",
+    color: "#AE1AE9",
   },
 ];
