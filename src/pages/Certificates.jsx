@@ -10,10 +10,12 @@ export default function Certificates() {
       >
         {certificates.map((cert) => (
           <CertificateComp
+            key={cert.time}
             name={cert.name}
             certBy={cert.certifiedBy}
             src={cert.certSrc}
             platform={cert.platform}
+            time={cert.time}
           />
         ))}
       </div>

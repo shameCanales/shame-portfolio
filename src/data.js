@@ -24,6 +24,8 @@ import nextjs from "./assets/logos/nextjs.png";
 
 //certificates ////////////////
 import HtmlAndCss from "./assets/certificates/HtmlandCSSUdemy.jpg";
+import webDesign from "./assets/certificates/webDesignUdemy.jpg";
+import javascripts from "./assets/certificates/javascriptUdemy.png";
 
 // projects ///////////////////
 import waterbillingsystem from "./assets/projects/waterbillingsystem.png";
@@ -159,18 +161,21 @@ export const certificates = [
     certifiedBy: "Jonas Schmedtmann",
     certSrc: HtmlAndCss,
     platform: "Udemy",
+    time: 37.5,
   },
   {
-    name: "Build Responsive Real-World Websites with HTML and CSS",
+    name: "Web Design for Web Developers: Build Beautiful Websites!",
     certifiedBy: "Jonas Schmedtmann",
-    certSrc: HtmlAndCss,
+    certSrc: webDesign,
     platform: "Udemy",
+    time: 2.5,
   },
   {
-    name: "Build Responsive Real-World Websites with HTML and CSS",
+    name: "The Complete JavaScript Course 2024: From Zero to Expert!",
     certifiedBy: "Jonas Schmedtmann",
-    certSrc: HtmlAndCss,
+    certSrc: javascripts,
     platform: "Udemy",
+    time: 71,
   },
 ];
 
