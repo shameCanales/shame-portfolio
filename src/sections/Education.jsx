@@ -10,6 +10,7 @@ export default function Education() {
       <div className="grid grid-cols-1 gap-2 mt-4">
         {education.map((educ) => (
           <EducationCard
+            key={educ.schoolYear}
             title={educ.title}
             year={educ.schoolYear}
             name={educ.schoolName}

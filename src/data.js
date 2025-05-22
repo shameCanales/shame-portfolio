@@ -326,7 +326,7 @@ export const careerGoals = [
     goalTitle: "Grow Skillset",
     goalDesc:
       "Strengthen both technical and soft skills by diving deeper into frontend development, expanding my backend knowledge, and building full-stack confidence.",
-    bgColor: "#24AA41",
+    bgColor: "#419453",
   },
   {
     goalTitle: "Contribute Value",
