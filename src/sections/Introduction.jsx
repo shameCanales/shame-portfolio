@@ -1,11 +1,12 @@
-import Paragraph from "../ui/paragraph";
-import Subheading from "../ui/Subheading";
+import MainParagraph from "../ui/MainParagraph";
 export default function Introduction() {
   return (
     <div className="mt-17">
-      <Subheading>Introduction</Subheading>
+      <p className="text-center montserrat-bold mt-15 sm:text-left sm:text-lg">
+        Introduction
+      </p>
       <div className="text ">
-        <Paragraph>
+        <MainParagraph>
           I’m a soon-to-be IT graduate and self-taught developer passionate
           about turning ideas into interactive, user-friendly web experiences.
           With multiple
@@ -20,8 +21,8 @@ export default function Introduction() {
             {" Resume"}
           </a>
           .
-        </Paragraph>
-        <Paragraph>
+        </MainParagraph>
+        <MainParagraph>
           I thrive at the intersection of design and development — crafting
           sleek, minimalist UIs that feel as good as they look. Whether I’m
           prototyping in Figma or coding dynamic components, I aim for
@@ -32,14 +33,14 @@ export default function Introduction() {
             {" projects"}
           </a>
           .
-        </Paragraph>
-        <Paragraph>
+        </MainParagraph>
+        <MainParagraph>
           From leading the development of our Water Billing Management System
           capstone to rebuilding a company site during my internship, I bring
           creativity, consistency, and curiosity to everything I build. I’m
           eager to contribute, grow, and turn challenges into opportunities. one
           project at a time.
-        </Paragraph>
+        </MainParagraph>
       </div>
     </div>
   );

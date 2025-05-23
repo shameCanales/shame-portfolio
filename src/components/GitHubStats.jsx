@@ -59,11 +59,25 @@ export default function GithubStats() {
   }, []);
 
   const getMonthLabels = () => {
-    const labels = new Array(53).fill("");
-    calendarData.months?.forEach((month) => {
-      const weekIndex = Math.floor(month.firstDay / 7);
-      labels[weekIndex] = month.name;
+    if (!calendarData.months || !calendarData.weeks) return [];
+
+    const labels = new Array(calendarData.weeks.length).fill("");
+
+    calendarData.months.forEach((month) => {
+      const monthStartDate = new Date(month.firstDay);
+
+      const weekIndex = calendarData.weeks.findIndex((week) =>
+        week.contributionDays.some(
+          (day) =>
+            new Date(day.date).toDateString() === monthStartDate.toDateString()
+        )
+      );
+
+      if (weekIndex !== -1) {
+        labels[weekIndex] = month.name;
+      }
     });
+
     return labels;
   };
 
@@ -75,9 +89,9 @@ export default function GithubStats() {
       ref={gridRef}
     >
       {/* Month labels */}
-      <div className="flex space-x-[2px] ml-10 mb-1 w-max">
+      <div className="flex space-x-[2.2px] ml-10 mb-1.5 w-max">
         {monthLabels.map((label, i) => (
-          <div key={i} className="text-[10px] w-[12px] text-gray-600">
+          <div key={i} className="text-[10px] w-[12px] text-stone-100 montserrat-regular">
             {label}
           </div>
         ))}
@@ -85,7 +99,7 @@ export default function GithubStats() {
 
       <div className="flex w-max">
         {/* Weekday Labels */}
-        <div className="flex flex-col justify-between text-[10px] text-gray-500 h-[88px] mr-2">
+        <div className="flex flex-col justify-between text-[10px] text-stone-100 h-[74px] mr-2 mt-3.5 montserrat-regular">
           <div>Mon</div>
           <div>Wed</div>
           <div>Fri</div>
