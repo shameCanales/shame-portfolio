@@ -1,7 +1,7 @@
 export default function CertificateComp({ name, certBy, src, platform, time }) {
   return (
-    <div>
-      <div className=" aspect-[18/9] rounded-lg overflow-hidden relative ">
+    <div className="mb-8 sm:mb-4">
+      <div className=" aspect-[18/9] rounded-lg sm:rounded-xl overflow-hidden relative ">
         <img className="w-full" src={src} alt={name} />
         <div className="absolute inset-0 hover:bg-black/70 transition-all ease-in-out"></div>
       </div>
