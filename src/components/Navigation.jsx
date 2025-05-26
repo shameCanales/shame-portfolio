@@ -98,6 +98,7 @@ export default function Navigation() {
               </LinkText>
             </NavLink>
           </li>
+          
           <li>
             <NavLink
               to="/experience"
@@ -110,6 +111,7 @@ export default function Navigation() {
               </LinkText>
             </NavLink>
           </li>
+
           <li>
             <NavLink
               to="/about"

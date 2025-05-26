@@ -9,7 +9,7 @@ import Footer from "../sections/Footer";
 export default function RootLayout() {
   return (
     <>
-      <div className="px-5 sm:px-8">
+      <div className="px-5 sm:px-8 md:px-13">
         <div className="hero-section">
           <HeaderSection />
           <Introduction />
@@ -17,7 +17,7 @@ export default function RootLayout() {
         <Github />
       </div>
       <TechStack />
-      <div className="px-5">
+      <div className="px-5 sm:px-8 md:px-13">
         <Navigation />
         <Outlet />
       </div>
