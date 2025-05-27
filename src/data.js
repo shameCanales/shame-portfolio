@@ -350,7 +350,7 @@ export const careerGoals = [
 export const education = [
   {
     title: "Tertiary Education",
-    schoolName: "Romblon State University",
+    schoolName: "Romblon State University - SFC",
     schoolYear: "S.Y. 2021-2025",
     address: "Poblacion, San Fernando, Romblon",
   },
