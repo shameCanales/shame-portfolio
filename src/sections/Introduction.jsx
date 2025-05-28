@@ -1,8 +1,8 @@
 import MainParagraph from "../ui/MainParagraph";
 export default function Introduction() {
   return (
-    <div className="mt-17">
-      <p className="text-center montserrat-bold mt-15 sm:text-left sm:text-lg">
+    <div className="mt-17 sm:mt-18 md:mt-20">
+      <p className="text-center sm:text-left montserrat-bold mt-15 sm:text-lg md:uppercase ">
         Introduction
       </p>
       <div className="text ">
@@ -10,8 +10,8 @@ export default function Introduction() {
           I’m a soon-to-be IT graduate and self-taught developer passionate
           about turning ideas into interactive, user-friendly web experiences.
           With multiple
-          <a href="#" className="underline">
-            {" certifications"}
+          <a href="#" className="underline underline-offset-4">
+            {" certifications "}
           </a>
           in HTML, CSS, JavaScript, and UI/UX design. I’m currently focused on
           mastering frontend development using React, Next.js, Tailwind CSS, and
