@@ -4,7 +4,7 @@ import JourneyItem from "../components/JourneyItem";
 
 export default function DevJourney() {
   return (
-    <div>
+    <div className="mb-10">
       <Subheading>Developer Journey</Subheading>
 
       <div>
