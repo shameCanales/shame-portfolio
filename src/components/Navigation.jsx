@@ -30,7 +30,7 @@ export default function Navigation() {
   };
 
   return (
-    <div className="mt-20 sm:mt-15 relative z-[999]">
+    <div className="mt-20  relative z-[999]">
       <div className="mobile-nav bg-stone-900 pl-6 rounded-4xl flex items-center justify-between sm:hidden">
         <p className="uppercase text-stone-50 poppins-medium text-xs tracking-wide">
           {currentSection}
@@ -45,7 +45,7 @@ export default function Navigation() {
       </div>
 
       <nav
-        className={`bg-stone-900 sm:bg-transparent text-stone-50 sm:text-stone-950 mt-8 px-6 py-10 sm:py-4  rounded-3xl w-46 sm:w-full absolute sm:static top-[-32px] right-0 ${OpenNav} sm:block sm:border-t-2 sm:rounded-none`}
+        className={`bg-stone-900 sm:bg-transparent text-stone-50 sm:text-stone-950 mt-8 px-6 py-10 sm:py-4  rounded-3xl w-46 sm:w-full absolute sm:static top-[-32px] right-0 ${OpenNav}  sm:block `}
       >
         <div className="w-full flex justify-end sm:hidden">
           <button
