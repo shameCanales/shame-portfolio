@@ -85,7 +85,7 @@ export default function GithubStats() {
 
   return (
     <div
-      className="overflow-x-auto font-mono text-sm bg-stone-900 p-4 sm:p-5 rounded-2xl sm:rounded-3xl md:rounded-4xl  mt-6"
+      className="overflow-x-auto font-mono text-sm bg-stone-900 p-4 sm:p-5 rounded-2xl sm:rounded-3xl md:rounded-4xl mt-6 md:max-w-[834px] mx-auto"
       ref={gridRef}
     >
       {/* Month labels */}

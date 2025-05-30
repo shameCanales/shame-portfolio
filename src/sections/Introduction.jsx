@@ -1,8 +1,8 @@
 import MainParagraph from "../ui/MainParagraph";
 export default function Introduction() {
   return (
-    <div className="mt-17 sm:mt-18 md:mt-20">
-      <p className="text-center sm:text-left montserrat-bold mt-15 sm:text-lg md:uppercase ">
+    <div className="mt-17 sm:mt-18 md:mt-20 lg:mt-0">
+      <p className="text-center sm:text-left montserrat-bold mt-15 sm:text-lg md:uppercase lg:hidden">
         Introduction
       </p>
       <div className="text ">
