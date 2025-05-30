@@ -238,34 +238,19 @@ export const projects = [
     name: "Water Billing Management System",
     for: "Capstone Project - 4th Year",
     description:
-      "Build and maintain critical components, used to construct Water Billing System’s frontend and backend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "Built and maintained critical components for the Water Billing System's frontend and backend, collaborating with cross-functional teams to implement web accessibility best practices.",
     stack: ["JavaScript", "Php", "MySQL"],
     imagesrc: waterbillingsystem,
   },
   {
-    name: "Water Billing Management System2",
+    name: "Water Billing Management System",
     for: "Capstone Project - 4th Year",
     description:
-      "Build and maintain critical components, used to construct Water Billing System’s frontend and backend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "Built and maintained critical components for the Water Billing System's frontend and backend, collaborating with cross-functional teams to implement web accessibility best practices.",
     stack: ["JavaScript", "Php", "MySQL"],
     imagesrc: waterbillingsystem,
   },
-  {
-    name: "Water Billing Management System3",
-    for: "Capstone Project - 4th Year",
-    description:
-      "Build and maintain critical components, used to construct Water Billing System’s frontend and backend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-    stack: ["JavaScript", "Php", "MySQL"],
-    imagesrc: waterbillingsystem,
-  },
-  {
-    name: "Water Billing Management System4",
-    for: "Capstone Project - 4th Year",
-    description:
-      "Build and maintain critical components, used to construct Water Billing System’s frontend and backend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-    stack: ["JavaScript", "Php", "MySQL"],
-    imagesrc: waterbillingsystem,
-  },
+  
 ];
 
 export const footerLinks = [
