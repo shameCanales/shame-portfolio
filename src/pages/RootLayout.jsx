@@ -10,7 +10,7 @@ export default function RootLayout() {
   return (
     <>
       <div className="px-5 sm:px-8 md:px-13 lg:px-12.5 xl:px-30 2xl:px-50">
-        <div className="hero-section lg:grid lg:grid-cols-2  lg:mt-22">
+        <div className="hero-section lg:grid lg:grid-cols-2 lg:mt-26">
           <HeaderSection />
           <Introduction />
         </div>
