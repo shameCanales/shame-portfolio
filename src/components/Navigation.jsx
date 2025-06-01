@@ -45,7 +45,7 @@ export default function Navigation() {
       </div>
 
       <nav
-        className={`bg-stone-900 sm:bg-transparent text-stone-50 sm:text-stone-950 mt-8 px-6 py-10 sm:py-4  rounded-3xl w-46 sm:w-full absolute sm:static top-[-32px] right-0 ${OpenNav}  sm:block `}
+        className={`bg-stone-900 sm:bg-transparent text-stone-50 sm:text-stone-950 mt-8 lg:mx-auto px-6 py-10 sm:py-4 rounded-3xl w-46 sm:w-full lg:w-[800px] absolute sm:static top-[-32px] right-0 ${OpenNav}  sm:block `}
       >
         <div className="w-full flex justify-end sm:hidden">
           <button

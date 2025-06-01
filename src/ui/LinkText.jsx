@@ -11,7 +11,7 @@ export default function LinkText({ active, children }) {
 
   return (
     <button
-      className={`uppercase mt-3 sm:mt-0 text-sm md:text-base sm:pb-2  ${activeIndicator}`}
+      className={`uppercase mt-3 sm:mt-0 text-sm md:text-base lg:text-lg sm:pb-2  ${activeIndicator}`}
       onClick={handleSelectButton}
     >
       {children}
