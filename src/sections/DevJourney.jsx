@@ -4,10 +4,10 @@ import JourneyItem from "../components/JourneyItem";
 
 export default function DevJourney() {
   return (
-    <div className="mb-10">
+    <div className="mb-10 lg:mb-15">
       <Subheading>Developer Journey</Subheading>
 
-      <div>
+      <div className="mt-10">
         {devJourney.map((journ) => (
           <JourneyItem
             key={journ.title}
