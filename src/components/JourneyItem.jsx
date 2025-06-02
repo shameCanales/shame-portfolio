@@ -6,7 +6,7 @@ export default function JourneyItem({ title, desc, color }) {
         <p className="montserrat-medium text-sm sm:text-base lg:text-right lg:pr-4">{title}</p>
       </div>
       <div>
-        <p className="montserrat-regular text-xs sm:text-sm leading-normal mt-1.5 lg:border-l-3 lg:pl-4">
+        <p className="montserrat-regular text-xs sm:text-sm leading-normal mt-1.5 lg:mt-0 lg:border-l-3 lg:pl-4">
           {desc}
         </p>
       </div>
