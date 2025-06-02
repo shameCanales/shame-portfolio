@@ -7,7 +7,7 @@ export default function Education() {
     <div className="">
       <Subheading>Educational Background</Subheading>
 
-      <div className="grid grid-cols-1 gap-2 sm:gap-3 mt-4 sm:mt-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4 sm:gap-3 mt-4 sm:mt-6 ">
         {education.map((educ) => (
           <EducationCard
             key={educ.schoolYear}
