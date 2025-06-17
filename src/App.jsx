@@ -1,11 +1,6 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import RootLayout from "./pages/RootLayout";
-// import Skills from "./pages/Skills";
-// import Projects from "./pages/Projects";
-// import Certificates from "./pages/Certificates";
-// import Experience from "./pages/Experience";
-// import About from "./pages/About";
 import { lazy, Suspense } from "react";
 
 const Skills = lazy(() => import("./pages/Skills"));

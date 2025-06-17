@@ -17,7 +17,7 @@ export default function Navigation() {
     "/about": "About Me",
   };
 
-  const currentSection = routeNameMap[location.pathname] || "nonono";
+  const currentSection = routeNameMap[location.pathname] || "wayaGani!";
   const navIsOpen = useSelector((state) => state.ui.navMobileisOpen);
   const OpenNav = navIsOpen ? "block" : "hidden";
 
