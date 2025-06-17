@@ -17,7 +17,7 @@ export default function Introduction() {
           mastering frontend development using React, Next.js, Tailwind CSS, and
           ShadCN — building clean, component-driven interfaces that perform
           beautifully across devices. Check out my
-          <a href="#" className="underline">
+          <a href="#" className="underline underline-offset-4">
             {" Resume"}
           </a>
           .
@@ -29,7 +29,7 @@ export default function Introduction() {
           intuitive, accessible interfaces backed by thoughtful logic. I enjoy
           solving real-world problems, writing clean, reusable code, and
           constantly sharpening my skills through hands-on
-          <a href="#" className="underline">
+          <a href="#" className="underline underline-offset-4">
             {" projects"}
           </a>
           .

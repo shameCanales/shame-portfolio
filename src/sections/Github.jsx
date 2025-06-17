@@ -11,7 +11,7 @@ export default function Github() {
         for the projects that i am building and it is really a game changer for
         every developers. I’m consistently updating my repositories as you can
         see in my contribution calendar and
-        <a href="#" className="underline" target="_blank">
+        <a href="#" className="underline underline-offset-4" target="_blank">
           {" GitHub Account"}
         </a>
         .
