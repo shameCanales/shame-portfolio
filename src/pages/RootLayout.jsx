@@ -17,7 +17,7 @@ export default function RootLayout() {
         <Github />
       </div>
       <TechStack />
-      <div className="px-5 sm:px-8 md:px-13 xl:px-30">
+      <div className="px-5 sm:px-8 md:px-13 xl:px-30 2xl:max-w-[1630px] 2xl:mx-auto">
         <Navigation />
         <Outlet />
       </div>
