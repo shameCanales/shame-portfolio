@@ -7,7 +7,7 @@ export default function CareerGoals() {
     <div className="mt-12 md:mt-14">
       <Subheading>My Career Goals</Subheading>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4  mt-4 md:mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-4 mt-4 md:mt-8 2xl:mt-12">
         {careerGoals.map((careerGoal) => (
           <GoalCard
             key={careerGoal.goalTitle}
