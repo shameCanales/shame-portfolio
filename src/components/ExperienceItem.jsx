@@ -9,7 +9,7 @@ export default function ExperienceItem({ when, as, where, what }) {
           <p className="poppins-semibold text-sm sm:text-base md:text-lg lg:text-xl">
             {as}, {where}
           </p >
-          <p className="montserrat-regular text-xs sm:text-sm md:text-base leading-4.5 sm:leading-5 md:leading-6 tracking-tight mt-2">{what}</p>
+          <p className="montserrat-regular text-xs sm:text-sm md:text-base leading-4.5 sm:leading-5 md:leading-6 tracking-tight mt-2 2xl:max-w-[600px]">{what}</p>
         </div>
       </div>
     </>
