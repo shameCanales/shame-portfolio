@@ -7,7 +7,7 @@ export default function DevJourney() {
     <div className="mb-10 lg:mb-15">
       <Subheading>Developer Journey</Subheading>
 
-      <div className="mt-10">
+      <div className="mt-10 2xl:mt-15 2xl:max-w-[1120px] 2xl:mx-auto">
         {devJourney.map((journ) => (
           <JourneyItem
             key={journ.title}
