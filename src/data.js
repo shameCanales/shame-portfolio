@@ -243,11 +243,11 @@ export const projects = [
     imagesrc: waterbillingsystem,
   },
   {
-    name: "Water Billing Management System",
+    name: "MoneyGo: Your Personal Finance Tracker",
     for: "Capstone Project - 4th Year",
     description:
       "Built and maintained critical components for the Water Billing System's frontend and backend, collaborating with cross-functional teams to implement web accessibility best practices.",
-    stack: ["JavaScript", "Php", "MySQL"],
+    stack: ["React JS", "Redux TK", "Tailwind CSS"],
     imagesrc: waterbillingsystem,
   },
   
