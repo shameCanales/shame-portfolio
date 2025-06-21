@@ -12,8 +12,9 @@ export default function Certificates() {
           <CertificateComp
             key={cert.time}
             name={cert.name}
+            certSrc={cert.src}
             certBy={cert.certifiedBy}
-            src={cert.certSrc}
+            certThumbnail={cert.certThumbnail}
             platform={cert.platform}
             time={cert.time}
           />

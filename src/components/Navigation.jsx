@@ -30,7 +30,7 @@ export default function Navigation() {
   };
 
   return (
-    <div className="mt-20  relative z-[999]">
+    <div className="mt-20  relative z-[2]">
       <div className="mobile-nav bg-stone-900 pl-6 rounded-4xl flex items-center justify-between sm:hidden">
         <p className="uppercase text-stone-50 poppins-medium text-xs tracking-wide">
           {currentSection}

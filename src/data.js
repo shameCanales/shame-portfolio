@@ -22,10 +22,15 @@ import vite from "./assets/logos/vite.png";
 import vscode from "./assets/logos/vscode.png";
 import nextjs from "./assets/logos/nextjs.png";
 
-//certificates ////////////////
-import HtmlAndCss from "./assets/certificates/HtmlandCSSUdemy.jpg";
-import webDesign from "./assets/certificates/webDesignUdemy.jpg";
-import javascripts from "./assets/certificates/javascriptUdemy.png";
+//certificate Thumbnails ////////////////
+import HtmlAndCss from "./assets/certThumbnails/HtmlandCSSUdemy.jpg";
+import webDesign from "./assets/certThumbnails/webDesignUdemy.jpg";
+import javascripts from "./assets/certThumbnails/javascriptUdemy.png";
+
+//Certificates Source //////////////////
+import htmlandcsssrc from "./assets/certificates/HtmlandCSSUdemy.jpg";
+import javascriptsrc from "./assets/certificates/javascriptUdemy.jpg";
+import webDesignsrc from "./assets/certificates/WebDesignUdemy.jpg";
 
 // projects ///////////////////
 import waterbillingsystem from "./assets/projects/waterbillingsystem.png";
@@ -159,21 +164,24 @@ export const certificates = [
   {
     name: "Build Responsive Real-World Websites with HTML and CSS",
     certifiedBy: "Jonas Schmedtmann",
-    certSrc: HtmlAndCss,
+    src: htmlandcsssrc,
+    certThumbnail: HtmlAndCss,
     platform: "Udemy",
     time: 37.5,
   },
   {
     name: "Web Design for Web Developers: Build Beautiful Websites!",
     certifiedBy: "Jonas Schmedtmann",
-    certSrc: webDesign,
+    src: webDesignsrc,
+    certThumbnail: webDesign,
     platform: "Udemy",
     time: 2.5,
   },
   {
     name: "The Complete JavaScript Course 2024: From Zero to Expert!",
     certifiedBy: "Jonas Schmedtmann",
-    certSrc: javascripts,
+    src: javascriptsrc,
+    certThumbnail: javascripts,
     platform: "Udemy",
     time: 71,
   },
@@ -250,7 +258,6 @@ export const projects = [
     stack: ["React JS", "Redux TK", "Tailwind CSS"],
     imagesrc: waterbillingsystem,
   },
-  
 ];
 
 export const footerLinks = [
