@@ -23,7 +23,7 @@ export default function CertificateComp({
       <p className="poppins-semibold text-sm xl:text-base mt-4">{name}</p>
       <div className="flex mt-1">
         <p className="poppins-regular text-sm xl:text-base">{`${certBy} |`}</p>
-        <button className="poppins-regular underline" onClick={handleViewCertificate}>
+        <button className="poppins-regular text-sm xl:text-base underline" onClick={handleViewCertificate}>
           {` View`}
         </button>
       </div>
