@@ -3,7 +3,7 @@ import facebookIcon from "./assets/icons/facebook.png";
 import githubIcon from "./assets/icons/github.png";
 import gmailIcon from "./assets/icons/gmail.png";
 import linkedinIcon from "./assets/icons/linkedin.png";
-import phoneCallIcon from "./assets/icons/phone-call.png";                         
+import phoneCallIcon from "./assets/icons/phone-call.png";
 
 // logos ///////////////////
 import css from "./assets/logos/css3.png";
