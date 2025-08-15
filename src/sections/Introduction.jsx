@@ -7,16 +7,16 @@ export default function Introduction() {
       </p>
       <div className="text ">
         <MainParagraph>
-          I’m a soon-to-be IT graduate and self-taught developer passionate
-          about turning ideas into interactive, user-friendly web experiences.
-          With multiple
+          I’m a fresh IT graduate and a self-taught developer passionate about
+          turning ideas into interactive, user-friendly web experiences. With
+          multiple
           <a href="#" className="underline underline-offset-4">
             {" certifications "}
           </a>
           in HTML, CSS, JavaScript, and UI/UX design. I’m currently focused on
-          mastering frontend development using React, Next.js, Tailwind CSS, and
-          ShadCN — building clean, component-driven interfaces that perform
-          beautifully across devices. Check out my
+          mastering frontend development using React, Next.js, Tailwind CSS,
+          Redux Toolkit, and Routing. building clean, component-driven
+          interfaces that perform beautifully across devices. Check out my
           <a href="#" className="underline underline-offset-4">
             {" Resume"}
           </a>
@@ -36,10 +36,10 @@ export default function Introduction() {
         </MainParagraph>
         <MainParagraph>
           From leading the development of our Water Billing Management System
-          capstone to rebuilding a company site during my internship, I bring
-          creativity, consistency, and curiosity to everything I build. I’m
-          eager to contribute, grow, and turn challenges into opportunities. one
-          project at a time.
+          capstone to rebuilding a company site during my internship and
+          building experimental projects. I bring creativity, consistency, and
+          curiosity to everything I build. I’m eager to contribute, grow, and
+          turn challenges into opportunities. one project at a time.
         </MainParagraph>
       </div>
     </div>
