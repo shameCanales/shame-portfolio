@@ -1,12 +1,29 @@
-# My Personal Portfolio Site
+# 🚀 Shame Canales — Developer Portfolio V1 (Built with React + Vite)
 
-this will be my official portfolio website where you can see who i am and what my qualifications are.
+Welcome to my personal portfolio website!  
+This project showcases my **skills, projects, certifications, and experience** as a web developer with specialization in frontend development. Built with modern technologies like **React, Vite, Tailwind CSS, Redux Toolkit, and TanStack Query**, it serves as both a professional portfolio and a demonstration of my frontend development expertise.
 
-<!-- Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh -->
+## 🌐 Live Demo
+👉 [Visit Portfolio](https://shame-canales-portfolio-v1.vercel.app)  
 
-<!-- ## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project. -->
+## ✨ Features
+- 📖 **About Me** — short introduction & skills overview  
+- 🛠️ **Tech Stack Showcase** — logos of technologies I use  
+- 📜 **Certifications** — Udemy certificates with thumbnails and links  
+- 💻 **Projects** — highlight of real-world and practice projects (e.g., Water Billing System, FakeStore App)  
+- 📞 **Contact Section** — social media, email, and phone links  
+
+---
+
+## 🛠️ Tech Stack
+- **Framework:** [React](https://react.dev/) + [Vite](https://vitejs.dev/)  
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) + [ShadCN UI](https://ui.shadcn.com/)  
+- **State Management:** [Redux Toolkit](https://redux-toolkit.js.org/)  
+- **Data Fetching:** [TanStack Query](https://tanstack.com/query)  
+- **Version Control:** [Git](https://git-scm.com/) + [GitHub](https://github.com/)  
+- **Deployment:** [Vercel](https://vercel.com/)  
+
