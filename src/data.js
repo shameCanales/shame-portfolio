@@ -24,7 +24,7 @@ import nextjs from "./assets/logos/nextjs.png";
 
 //certificate Thumbnails ////////////////
 import HtmlAndCss from "./assets/certThumbnails/HtmlandCSSUdemy.jpg";
-import webDesign from "./assets/certThumbnails/webDesignUdemy.jpg";
+import webDesign from "./assets/certThumbnails/WebDesignUdemy.jpg";
 import javascripts from "./assets/certThumbnails/javascriptUdemy.png";
 
 //Certificates Source //////////////////
