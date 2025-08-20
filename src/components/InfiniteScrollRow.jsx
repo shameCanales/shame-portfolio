@@ -1,4 +1,4 @@
-import LogoItem from "../ui/logoItem";
+import LogoItem from "../ui/LogoItem";
 
 export default function InfiniteScrollRow({ items, direction, speed = "20s" }) {
   const duplicatedItems = [...items, ...items, ...items, ...items, ...items];
