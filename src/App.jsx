@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import RootLayout from "./pages/RootLayout";
 import { lazy, Suspense } from "react";
 
-const Skills = lazy(() => import("./pages/Skills"));
+const Skills = lazy(() => import("./pages/Skills")); 
 const Projects = lazy(() => import("./pages/Projects"));
 const Certificates = lazy(() => import("./pages/Certificates"));
 const Experience = lazy(() => import("./pages/Experience"));
