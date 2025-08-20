@@ -9,15 +9,25 @@ export default function Github() {
       <Paragraph>
         Learned and started using git and GitHub as my version control system
         for the projects that i am building and it is really a game changer for
-        every developers. I’m consistently updating my repositories as you can
-        see in my contribution calendar and
-        <a href="#" className="underline underline-offset-4" target="_blank">
+        every developer like me. I’m consistently updating my repositories as
+        you can see in my contribution calendar and
+        <a
+          href="https://github.com/shameCanales"
+          className="underline underline-offset-4"
+          target="_blank"
+        >
           {" GitHub Account"}
         </a>
         .
       </Paragraph>
 
-      <GithubStats />
+      <a
+        href="https://github.com/shameCanales"
+        className="underline underline-offset-4"
+        target="_blank"
+      >
+        <GithubStats />
+      </a>
     </div>
   );
 }
