@@ -25,11 +25,11 @@ import nextjs from "./assets/logos/nextjs.png";
 //certificate Thumbnails ////////////////
 import HtmlAndCss from "./assets/certThumbnails/HtmlandCSSUdemy.jpg";
 import webDesign from "./assets/certThumbnails/WebDesignUdemy.jpg";
-import javascripts from "./assets/certThumbnails/javascriptUdemy.png";
+import javascripts from "./assets/certThumbnails/JavascriptUdemy.png";
 
 //Certificates Source //////////////////
 import htmlandcsssrc from "./assets/certificates/HtmlandCSSUdemy.jpg";
-import javascriptsrc from "./assets/certificates/javascriptUdemy.jpg";
+import javascriptsrc from "./assets/certificates/JavascriptUdemy.jpg";
 import webDesignsrc from "./assets/certificates/WebDesignUdemy.jpg";
 
 // projects ///////////////////
