@@ -1,5 +1,5 @@
 import TechStackItem from "../ui/techStackItem";
-import Paragraph from "../ui/paragraph";
+import Paragraph from "../ui/Paragraph";
 
 export default function ProjectComp({ name, desc, src, projFor, stack }) {
   return (

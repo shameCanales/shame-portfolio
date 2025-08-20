@@ -1,5 +1,5 @@
 import Subheading from "../ui/Subheading";
-import Paragraph from "../ui/paragraph";
+import Paragraph from "../ui/Paragraph";
 import GithubStats from "../components/GitHubStats";
 
 export default function Github() {
