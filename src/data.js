@@ -196,11 +196,12 @@ export const skillsets = [
       "React JS",
       "Tailwind CSS",
       "ShadCN",
+      "NextJS",
     ],
   },
   {
     name: "State Management",
-    items: ["React UseState", "React Context", "Redux Toolkit"],
+    items: ["React Hooks(useState, etc.)", "React Context", "Redux Toolkit"],
   },
   {
     name: "FullStack",
@@ -216,7 +217,7 @@ export const skillsets = [
   },
   {
     name: "Build Tools",
-    items: ["Vite for React", "Babel: MVC for Vanilla JS"],
+    items: ["Vite for React", "Babel: MVC for Vanilla JS", "Webpack"],
   },
   {
     name: "Paradigms",
@@ -237,7 +238,7 @@ export const skillsets = [
   },
   {
     name: "Database",
-    items: ["MySQL"],
+    items: ["MySQL", "MonggoDB Atlas"],
   },
 ];
 
@@ -250,14 +251,14 @@ export const projects = [
     stack: ["JavaScript", "Php", "MySQL"],
     imagesrc: waterbillingsystem,
   },
-  {
-    name: "MoneyGo: Your Personal Finance Tracker",
-    for: "Capstone Project - 4th Year",
-    description:
-      "Built and maintained critical components for the Water Billing System's frontend and backend, collaborating with cross-functional teams to implement web accessibility best practices.",
-    stack: ["React JS", "Redux TK", "Tailwind CSS"],
-    imagesrc: waterbillingsystem,
-  },
+  // {
+  //   name: "MoneyGo: Your Personal Finance Tracker",
+  //   for: "Capstone Project - 4th Year",
+  //   description:
+  //     "Built and maintained critical components for the Water Billing System's frontend and backend, collaborating with cross-functional teams to implement web accessibility best practices.",
+  //   stack: ["React JS", "Redux TK", "Tailwind CSS"],
+  //   imagesrc: waterbillingsystem,
+  // },
 ];
 
 export const footerLinks = [
@@ -296,20 +297,20 @@ export const experiences = [
     description:
       "Recreated the Comwork company website using ReactJS, TailwindCSS, Redux Toolkit, and TanStack. Redesigned it with a minimalist, modern UI focused on clarity and user experience. Ensured a clear content hierarchy to guide visitor attention effectively. Also built several small projects during this period to strengthen my skills.",
   },
-  {
-    date: "Feb 2025 - June 2025",
-    role: "Intern / OJT",
-    where: "ComWorks Inc",
-    description:
-      "Recreated the Comwork company website using ReactJS, TailwindCSS, Redux Toolkit, and TanStack. Redesigned it with a minimalist, modern UI focused on clarity and user experience. Ensured a clear content hierarchy to guide visitor attention effectively. Also built several small projects during this period to strengthen my skills.",
-  },
-  {
-    date: "Feb 2025 - June 2025",
-    role: "Intern / OJT",
-    where: "ComWorks Inc",
-    description:
-      "Recreated the Comwork company website using ReactJS, TailwindCSS, Redux Toolkit, and TanStack. Redesigned it with a minimalist, modern UI focused on clarity and user experience. Ensured a clear content hierarchy to guide visitor attention effectively. Also built several small projects during this period to strengthen my skills.",
-  },
+  // {
+  //   date: "Feb 2025 - June 2025",
+  //   role: "Intern / OJT",
+  //   where: "ComWorks Inc",
+  //   description:
+  //     "Recreated the Comwork company website using ReactJS, TailwindCSS, Redux Toolkit, and TanStack. Redesigned it with a minimalist, modern UI focused on clarity and user experience. Ensured a clear content hierarchy to guide visitor attention effectively. Also built several small projects during this period to strengthen my skills.",
+  // },
+  // {
+  //   date: "Feb 2025 - June 2025",
+  //   role: "Intern / OJT",
+  //   where: "ComWorks Inc",
+  //   description:
+  //     "Recreated the Comwork company website using ReactJS, TailwindCSS, Redux Toolkit, and TanStack. Redesigned it with a minimalist, modern UI focused on clarity and user experience. Ensured a clear content hierarchy to guide visitor attention effectively. Also built several small projects during this period to strengthen my skills.",
+  // },
 ];
 
 export const careerGoals = [
