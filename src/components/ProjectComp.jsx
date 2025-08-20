@@ -1,4 +1,4 @@
-import TechStackItem from "../ui/techStackItem";
+import TechStackItem from "../ui/TechStackItem";
 import Paragraph from "../ui/Paragraph";
 
 export default function ProjectComp({ name, desc, src, projFor, stack }) {
@@ -9,8 +9,12 @@ export default function ProjectComp({ name, desc, src, projFor, stack }) {
         <div className="absolute inset-0 hover:bg-black/70 transition-all ease-in-out index-[9]"></div>
       </div>
       <div className="lg:max-w-[447px]">
-        <p className="inter-bold text-xs lg:text-base 2xl:text-lg mt-4 lg:mt-0">{name}</p>
-        <p className="uppercase inter-medium text-xs lg:text-base mt-2">{projFor}</p>
+        <p className="inter-bold text-xs lg:text-base 2xl:text-lg mt-4 lg:mt-0">
+          {name}
+        </p>
+        <p className="uppercase inter-medium text-xs lg:text-base mt-2">
+          {projFor}
+        </p>
         <p className="leading-4.5 lg:leading-6 tracking-tight inter-regular text-xs lg:text-base mt-2">
           {desc}
         </p>
