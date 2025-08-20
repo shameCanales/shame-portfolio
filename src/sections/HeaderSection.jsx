@@ -1,6 +1,6 @@
 import Headline from "../ui/Headline";
 import SubHeadline from "../ui/SubHeadline";
-import Tagline from "../ui/tagline";
+import Tagline from "../ui/Tagline";
 import ContactCTA from "../components/ContactCTA";
 import downArrow from '../assets/icons/down-arrow.png'
 
