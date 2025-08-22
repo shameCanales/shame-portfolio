@@ -13,9 +13,9 @@ export default function LinkText({ active, children }) {
     <motion.button
       onClick={handleSelectButton}
       className="relative uppercase mt-3 sm:mt-0 text-sm md:text-base lg:text-lg 2xl:text-xl sm:pb-2"
-      whileHover={{ scale: 1.05 }}
+      whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
-      transition={{ type: "spring", stiffness: 300, damping: 20 }}
+      transition={{ type: "spring", stiffness: 500, damping: 20, mass: 1 }}
     >
       {children}
 
