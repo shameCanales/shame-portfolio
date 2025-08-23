@@ -162,6 +162,14 @@ export const logosRow3 = [
 
 export const certificates = [
   {
+    name: "The Complete JavaScript Course 2024: From Zero to Expert!",
+    certifiedBy: "Jonas Schmedtmann",
+    src: javascriptsrc,
+    certThumbnail: javascripts,
+    platform: "Udemy",
+    time: 71,
+  },
+  {
     name: "Build Responsive Real-World Websites with HTML and CSS",
     certifiedBy: "Jonas Schmedtmann",
     src: htmlandcsssrc,
@@ -176,14 +184,6 @@ export const certificates = [
     certThumbnail: webDesign,
     platform: "Udemy",
     time: 2.5,
-  },
-  {
-    name: "The Complete JavaScript Course 2024: From Zero to Expert!",
-    certifiedBy: "Jonas Schmedtmann",
-    src: javascriptsrc,
-    certThumbnail: javascripts,
-    platform: "Udemy",
-    time: 71,
   },
 ];
 
