@@ -15,22 +15,24 @@ import mongodb from "./assets/logos/monggodb.png";
 import nodejs from "./assets/logos/nodejs.png";
 import react from "./assets/logos/reactjs.png";
 import rtk from "./assets/logos/reduxtoolkit.png";
-import shadcn from "./assets/logos/shadcn.png";
+// import shadcn from "./assets/logos/shadcn.png";
 import tailwindcss from "./assets/logos/tailwindcss.png";
-import typescript from "./assets/logos/typescript.png";
 import vite from "./assets/logos/vite.png";
 import vscode from "./assets/logos/vscode.png";
 import nextjs from "./assets/logos/nextjs.png";
+import typeScript from './assets/logos/typescriptLogo.png'
 
 //certificate Thumbnails ////////////////
-import HtmlAndCss from "./assets/certThumbnails/HtmlandCSSUdemy.jpg";
-import webDesign from "./assets/certThumbnails/WebDesignUdemy.jpg";
-import javascripts from "./assets/certThumbnails/JavascriptUdemy.png";
+import HtmlAndCssThumbnail from "./assets/certThumbnails/HtmlandCSSUdemy.jpg";
+import webDesignThumbnail from "./assets/certThumbnails/WebDesignUdemy.jpg";
+import javascriptThumbnail from "./assets/certThumbnails/JavascriptUdemy.png";
+import reactThumbnail from "./assets/certThumbnails/reactUdemyThumbnail.webp";
 
 //Certificates Source //////////////////
 import htmlandcsssrc from "./assets/certificates/HtmlandCSSUdemy.jpg";
 import javascriptsrc from "./assets/certificates/JavascriptUdemy.jpg";
 import webDesignsrc from "./assets/certificates/WebDesignUdemy.jpg";
+import reactsrc from "./assets/certificates/reactUdemy.jpg";
 
 // projects ///////////////////
 import waterbillingsystem from "./assets/projects/waterbillingsystem.png";
@@ -102,6 +104,7 @@ export const logosRow1 = [
     logosrc: javascript,
     alt: "Javascript logo",
   },
+
 ];
 
 export const logosRow2 = [
@@ -122,7 +125,7 @@ export const logosRow2 = [
   },
   {
     name: "TypeScript",
-    logosrc: typescript,
+    logosrc: typeScript,
     alt: "TypeScript logo",
   },
   {
@@ -143,11 +146,11 @@ export const logosRow3 = [
     logosrc: nextjs,
     alt: "NextJS logo",
   },
-  {
-    name: "ShadCN",
-    logosrc: shadcn,
-    alt: "ShadCN logo",
-  },
+  // {
+  //   name: "ShadCN",
+  //   logosrc: shadcn,
+  //   alt: "ShadCN logo",
+  // },
   {
     name: "GitHub",
     logosrc: github,
@@ -164,8 +167,16 @@ export const certificates = [
   {
     name: "The Complete JavaScript Course 2024: From Zero to Expert!",
     certifiedBy: "Jonas Schmedtmann",
+    src: reactsrc,
+    certThumbnail: reactThumbnail,
+    platform: "Udemy",
+    time: 71,
+  },
+  {
+    name: "The Complete JavaScript Course 2024: From Zero to Expert!",
+    certifiedBy: "Jonas Schmedtmann",
     src: javascriptsrc,
-    certThumbnail: javascripts,
+    certThumbnail: javascriptThumbnail,
     platform: "Udemy",
     time: 71,
   },
@@ -173,7 +184,7 @@ export const certificates = [
     name: "Build Responsive Real-World Websites with HTML and CSS",
     certifiedBy: "Jonas Schmedtmann",
     src: htmlandcsssrc,
-    certThumbnail: HtmlAndCss,
+    certThumbnail: HtmlAndCssThumbnail,
     platform: "Udemy",
     time: 37.5,
   },
@@ -181,52 +192,27 @@ export const certificates = [
     name: "Web Design for Web Developers: Build Beautiful Websites!",
     certifiedBy: "Jonas Schmedtmann",
     src: webDesignsrc,
-    certThumbnail: webDesign,
+    certThumbnail: webDesignThumbnail,
     platform: "Udemy",
     time: 2.5,
   },
 ];
 
-export const skillsets = [
+export const coreSkills = [
   {
     name: "Frontend",
     items: [
-      "HTML, CSS, VanillaJS",
-      "Sass",
       "React JS",
-      "Tailwind CSS",
-      "ShadCN",
       "NextJS",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "HTML, CSS / SASS, VanillaJS",
     ],
   },
   {
     name: "State Management",
-    items: ["React Hooks(useState, etc.)", "React Context", "Redux Toolkit"],
-  },
-  {
-    name: "FullStack",
-    items: ["NextJS"],
-  },
-  {
-    name: "BaaS",
-    items: ["FireBase"],
-  },
-  {
-    name: "Backend",
-    items: ["Node.JS"],
-  },
-  {
-    name: "Build Tools",
-    items: ["Vite for React", "Babel: MVC for Vanilla JS", "Webpack"],
-  },
-  {
-    name: "Paradigms",
-    items: [
-      "Component Base Arch.",
-      "Functional Programming",
-      "Object Oriented Programming",
-      "MVC Architecture",
-    ],
+    items: ["Redux Toolkit", "React Hooks (useState, etc.)", "React Context"],
   },
   {
     name: "Design Tools",
@@ -237,8 +223,50 @@ export const skillsets = [
     items: ["Git", "GitHub"],
   },
   {
+    name: "Testing",
+    items: ["Jest", "React Testing Library"],
+  },
+  {
+    name: "FullStack",
+    items: ["NextJS(frontend + API Routes)", "Typescript across stack"],
+  },
+  {
+    name: "Backend",
+    items: ["Node.JS"],
+  },
+  {
+    name: "BaaS",
+    items: ["FireBase"],
+  },
+
+  {
     name: "Database",
-    items: ["MySQL", "MonggoDB Atlas"],
+    items: ["MySQL", "MongoDB Atlas"],
+  },
+  {
+    name: "Build Tools",
+    items: ["Vite for React", "Babel: MVC for Vanilla JS", "Webpack"],
+  },
+  {
+    name: "Architectural Patterns",
+    items: [
+      "Component Base Arch.",
+      "Functional Programming",
+      "Object Oriented Programming",
+      "MVC Architecture",
+    ],
+  },
+];
+
+export const skillSetExperienced = [
+  {
+    name: "Paradigms",
+    items: [
+      "Component Base Arch.",
+      "Functional Programming",
+      "Object Oriented Programming",
+      "MVC Architecture",
+    ],
   },
 ];
 
