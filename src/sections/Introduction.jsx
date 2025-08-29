@@ -9,14 +9,14 @@ export default function Introduction() {
         <MainParagraph>
           I’m a fresh IT graduate and a self-taught developer passionate about
           turning ideas into interactive, user-friendly web experiences. With
-          multiple
           <a href="#" className="underline underline-offset-4">
             {" certifications "}
           </a>
-          in HTML, CSS, JavaScript, and UI/UX design. I’m currently focused on
-          mastering frontend development using React, Next.js, Tailwind CSS,
-          Redux Toolkit, and Routing. building clean, component-driven
-          interfaces that perform beautifully across devices. Check out my
+          in React, Javascript, HTML, CSS, and UI/UX design. I’m currently
+          focused on mastering frontend development using React, Next.js,
+          Tailwind CSS, Redux Toolkit, Tanstack Query, Routing and exploring
+          backend technolgies. building clean, component-driven interfaces that
+          perform beautifully across devices. Check out my
           <a href="#" className="underline underline-offset-4">
             {" Resume"}
           </a>
