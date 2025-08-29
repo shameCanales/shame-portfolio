@@ -5,6 +5,22 @@ export default function GithubStats() {
   const [calendarData, setCalendarData] = useState([]);
   const gridRef = useRef(null); // ← Ref for auto-scrolling
 
+  // const contributionColors = [ // this is for custom github color
+  //   "#161b22", // slate-900 (0 contributions)
+  //   "#0e4429", // dark green
+  //   "#006d32", // green
+  //   "#26a641", // emerald
+  //   "#39d353", // bright green
+  // ];
+
+  // const getDayColor = (count) => {
+  //   if (count === 0) return contributionColors[0];
+  //   if (count < 5) return contributionColors[1];
+  //   if (count < 10) return contributionColors[2];
+  //   if (count < 15) return contributionColors[3];
+  //   return contributionColors[4];
+  // };
+
   useEffect(() => {
     const fetchCalendar = async () => {
       const response = await fetch("https://api.github.com/graphql", {
@@ -56,7 +72,7 @@ export default function GithubStats() {
     };
 
     fetchCalendar();
-  }, []);
+  }, [token]);
 
   const getMonthLabels = () => {
     if (!calendarData.months || !calendarData.weeks) return [];
@@ -91,7 +107,10 @@ export default function GithubStats() {
       {/* Month labels */}
       <div className="flex space-x-[2.2px] ml-10 mb-1.5 w-max">
         {monthLabels.map((label, i) => (
-          <div key={i} className="text-[10px] w-[12px] text-stone-100 montserrat-regular">
+          <div
+            key={i}
+            className="text-[10px] w-[12px] text-stone-100 montserrat-regular"
+          >
             {label}
           </div>
         ))}
@@ -113,9 +132,9 @@ export default function GithubStats() {
                 <div
                   key={dayIdx}
                   title={`${day.date}: ${day.contributionCount} contributions`}
-                  className="w-[11px] h-[11px] rounded-sm"
+                  className="w-[11px] h-[11px] rounded-xs"
                   style={{
-                    backgroundColor: day.color || "#ebedf0",
+                    backgroundColor: day.color || "#161b22",
                   }}
                 ></div>
               ))}
