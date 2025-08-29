@@ -20,7 +20,7 @@ import tailwindcss from "./assets/logos/tailwindcss.png";
 import vite from "./assets/logos/vite.png";
 import vscode from "./assets/logos/vscode.png";
 import nextjs from "./assets/logos/nextjs.png";
-import typeScript from './assets/logos/typescriptLogo.png'
+import typeScript from "./assets/logos/typescriptLogo.png";
 
 //certificate Thumbnails ////////////////
 import HtmlAndCssThumbnail from "./assets/certThumbnails/HtmlandCSSUdemy.jpg";
@@ -104,7 +104,6 @@ export const logosRow1 = [
     logosrc: javascript,
     alt: "Javascript logo",
   },
-
 ];
 
 export const logosRow2 = [
@@ -205,57 +204,84 @@ export const coreSkills = [
       "React JS",
       "NextJS",
       "TypeScript",
-      "Tailwind CSS",
-      "Framer Motion",
-      "HTML, CSS / SASS, VanillaJS",
+      "Javascript(ES6+)",
+      "Redux Toolkit",
+      "Tanstack Query",
     ],
   },
   {
-    name: "State Management",
-    items: ["Redux Toolkit", "React Hooks (useState, etc.)", "React Context"],
-  },
-  {
-    name: "Design Tools",
-    items: ["Figma", "Photoshop"],
-  },
-  {
-    name: "Version Control",
-    items: ["Git", "GitHub"],
+    name: "UI and Styling",
+    items: ["Tailwind CSS", "Framer Motion", "Figma"],
   },
   {
     name: "Testing",
     items: ["Jest", "React Testing Library"],
   },
   {
-    name: "FullStack",
-    items: ["NextJS(frontend + API Routes)", "Typescript across stack"],
+    name: "Tools & Version Control",
+    items: ["Git", "Github", "Vite"],
   },
   {
-    name: "Backend",
-    items: ["Node.JS"],
+    name: "Backend and Databases (Exploring)",
+    items: ["Node.js", "Prisma", "PostgreSQL", "Firebase", "MongoDB Atlas"],
   },
-  {
-    name: "BaaS",
-    items: ["FireBase"],
-  },
+  // {
+  //   name: "Frontend",
+  //   items: [
+  //     "React JS",
+  //     "NextJS",
+  //     "TypeScript",
+  //     "Tailwind CSS",
+  //     "Framer Motion",
+  //     "HTML, CSS / SASS, VanillaJS",
+  //   ],
+  // },
+  // {
+  //   name: "State Management",
+  //   items: ["Redux Toolkit", "React Hooks (useState, etc.)", "React Context"],
+  // },
+  // {
+  //   name: "Design Tools",
+  //   items: ["Figma", "Photoshop"],
+  // },
+  // {
+  //   name: "Version Control",
+  //   items: ["Git", "GitHub"],
+  // },
+  // {
+  //   name: "Testing",
+  //   items: ["Jest", "React Testing Library"],
+  // },
+  // {
+  //   name: "FullStack",
+  //   items: ["NextJS(frontend + API Routes)", "Typescript across stack"],
+  // },
+  // {
+  //   name: "Backend",
+  //   items: ["Node.JS"],
+  // },
+  // {
+  //   name: "BaaS",
+  //   items: ["FireBase"],
+  // },
 
-  {
-    name: "Database",
-    items: ["MySQL", "MongoDB Atlas"],
-  },
-  {
-    name: "Build Tools",
-    items: ["Vite for React", "Babel: MVC for Vanilla JS", "Webpack"],
-  },
-  {
-    name: "Architectural Patterns",
-    items: [
-      "Component Base Arch.",
-      "Functional Programming",
-      "Object Oriented Programming",
-      "MVC Architecture",
-    ],
-  },
+  // {
+  //   name: "Database",
+  //   items: ["MySQL", "MongoDB Atlas"],
+  // },
+  // {
+  //   name: "Build Tools",
+  //   items: ["Vite for React", "Babel: MVC for Vanilla JS", "Webpack"],
+  // },
+  // {
+  //   name: "Architectural Patterns",
+  //   items: [
+  //     "Component Base Arch.",
+  //     "Functional Programming",
+  //     "Object Oriented Programming",
+  //     "MVC Architecture",
+  //   ],
+  // },
 ];
 
 export const skillSetExperienced = [
