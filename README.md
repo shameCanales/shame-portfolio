@@ -3,6 +3,7 @@
 This is my personal portfolio website — a space where I showcase my journey as a frontend developer, highlight my featured projects, and share my passion for building sleek, interactive, and user-friendly web experiences.
 This project showcases my **skills, projects, certifications, and experience** as a web developer with specialization in frontend development. Built with modern technologies like **React, Vite, Tailwind CSS, Redux Toolkit, and TanStack Query**, it serves as both a professional portfolio and a demonstration of my frontend development expertise.
 
+
 ---
 
 ## 🌐 Live Demo
@@ -12,9 +13,11 @@ This project showcases my **skills, projects, certifications, and experience** a
 ---
 
 ## ✨ About the Project
+I’m a fresh IT graduate and self-taught developer passionate about turning ideas into interactive, user-friendly web experiences. My focus is on building clean, component-driven interfaces that are both functional and visually engaging.
 
-I built this portfolio to reflect not only my technical skills but also my design philosophy: **clean, minimalist, and intuitive interfaces** backed by solid code.  
-It serves as both a personal brand hub and a project showcase, giving employers and collaborators a direct look at what I can build.
+Currently, I’m sharpening my expertise in React, Next.js, Tailwind CSS, Redux Toolkit, and TanStack Query, while also exploring backend technologies to grow into a more complete developer.
+
+This portfolio was crafted not just to showcase my projects, but also to reflect my design philosophy: clean, minimalist, and intuitive interfaces backed by solid code. It serves as both a personal brand hub and a project showcase, giving employers and collaborators a clear picture of what I can create.
 
 The site emphasizes:
 
